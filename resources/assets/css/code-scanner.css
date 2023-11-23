@@ -1,0 +1,157 @@
+.btn-code-scanner {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin: 4px;
+}
+.btn-code-scanner.focus,
+.btn-code-scanner:focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-code-scanner:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-code-scanner.active,
+.btn-code-scanner:active,
+.open > .dropdown-toggle.btn-code-scanner {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-code-scanner.active.focus,
+.btn-code-scanner.active:focus,
+.btn-code-scanner.active:hover,
+.btn-code-scanner:active.focus,
+.btn-code-scanner:active:focus,
+.btn-code-scanner:active:hover,
+.open > .dropdown-toggle.btn-code-scanner.focus,
+.open > .dropdown-toggle.btn-code-scanner:focus,
+.open > .dropdown-toggle.btn-code-scanner:hover {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-code-scanner.active,
+.btn-code-scanner:active,
+.open > .dropdown-toggle.btn-code-scanner {
+  background-image: none;
+}
+.btn-code-scanner.disabled,
+.btn-code-scanner.disabled.active,
+.btn-code-scanner.disabled.focus,
+.btn-code-scanner.disabled:active,
+.btn-code-scanner.disabled:focus,
+.btn-code-scanner.disabled:hover,
+.btn-code-scanner[disabled],
+.btn-code-scanner[disabled].active,
+.btn-code-scanner[disabled].focus,
+.btn-code-scanner[disabled]:active,
+.btn-code-scanner[disabled]:focus,
+.btn-code-scanner[disabled]:hover,
+fieldset[disabled] .btn-code-scanner,
+fieldset[disabled] .btn-code-scanner.active,
+fieldset[disabled] .btn-code-scanner.focus,
+fieldset[disabled] .btn-code-scanner:active,
+fieldset[disabled] .btn-code-scanner:focus,
+fieldset[disabled] .btn-code-scanner:hover {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.btn-code-scanner-ok {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  margin: 4px;
+  min-width: 6em;
+}
+.btn-code-scanner-ok.focus,
+.btn-code-scanner-ok:focus {
+  color: #fff;
+  background-color: #286090;
+  border-color: #122b40;
+}
+.btn-code-scanner-ok:hover {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-code-scanner-ok.active,
+.btn-code-scanner-ok:active,
+.open > .dropdown-toggle.btn-code-scanner-ok {
+  color: #fff;
+  background-color: #286090;
+  border-color: #204d74;
+}
+.btn-code-scanner-ok.active.focus,
+.btn-code-scanner-ok.active:focus,
+.btn-code-scanner-ok.active:hover,
+.btn-code-scanner-ok:active.focus,
+.btn-code-scanner-ok:active:focus,
+.btn-code-scanner-ok:active:hover,
+.open > .dropdown-toggle.btn-code-scanner-ok.focus,
+.open > .dropdown-toggle.btn-code-scanner-ok:focus,
+.open > .dropdown-toggle.btn-code-scanner-ok:hover {
+  color: #fff;
+  background-color: #204d74;
+  border-color: #122b40;
+}
+.btn-code-scanner-ok.active,
+.btn-code-scanner-ok:active,
+.open > .dropdown-toggle.btn-code-scanner-ok {
+  background-image: none;
+}
+.btn-code-scanner-ok.disabled,
+.btn-code-scanner-ok.disabled.active,
+.btn-code-scanner-ok.disabled.focus,
+.btn-code-scanner-ok.disabled:active,
+.btn-code-scanner-ok.disabled:focus,
+.btn-code-scanner-ok.disabled:hover,
+.btn-code-scanner-ok[disabled],
+.btn-code-scanner-ok[disabled].active,
+.btn-code-scanner-ok[disabled].focus,
+.btn-code-scanner-ok[disabled]:active,
+.btn-code-scanner-ok[disabled]:focus,
+.btn-code-scanner-ok[disabled]:hover,
+fieldset[disabled] .btn-code-scanner-ok,
+fieldset[disabled] .btn-code-scanner-ok.active,
+fieldset[disabled] .btn-code-scanner-ok.focus,
+fieldset[disabled] .btn-code-scanner-ok:active,
+fieldset[disabled] .btn-code-scanner-ok:focus,
+fieldset[disabled] .btn-code-scanner-ok:hover {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+.code-scanner-container {
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  position: fixed;
+  background-color: #000000dd;
+  z-index: 9999;
+  display: none;
+}
+
+.code-scanner-video {
+  width: 100vw;
+  margin-top: 48px;
+  height: calc(100vh - 96px - 96px);
+}
+
+.code-scanner-result {
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+}
+
+.code-scanner-control {
+  margin: 10px;
+  text-align: center;
+}
