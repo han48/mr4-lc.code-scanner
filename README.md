@@ -9,6 +9,7 @@ Feature:
 - Support BarCode, QRCode
 
 ## Screenshot
+<img width="1604" alt="Screenshot 2023-11-23 at 18 02 54" src="https://github.com/han48/mr4-lc.code-scanner/assets/27817127/de2b606f-c4b5-4795-9f45-97084ca6e8c8">
 
 ## Installation
 ```bash
