@@ -97,6 +97,9 @@ function LoadCameraDevices(ctrl, id, messages, mode = 'single') {
                             let image = canvas.toDataURL('image/jpeg')
 
                             input.value = result.text
+                            if (onQRCodeScanned && typeof onQRCodeScanned === 'function') {
+                                onQRCodeScanned(result);
+                            }
                             let display = GetMessage(messages, 'result', {
                                 'result': result.text,
                             })
